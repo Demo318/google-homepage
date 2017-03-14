@@ -1,7 +1,7 @@
 body {
 	margin: 0px;
 }
-
+/* Formatting for top bar elements */
 #search-form {
 	padding-top:20px;
 	background-color:#fafafa;
@@ -57,6 +57,6 @@ body {
 	
 }
 
-.search-field:hover, focus, active {
+.search-field:hover, focus, active { /* drop-shadow effect for search bar */
 	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08), 1px 0 0 0 #fafafa;
 }
