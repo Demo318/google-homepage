@@ -7,7 +7,7 @@ body {
 	background-color:#fafafa;
 	height: 65px;
 	width:100%;
-	position: absolute;
+	position: relative;
 	display: block;
 }
 
@@ -59,4 +59,25 @@ body {
 
 .search-field:hover, focus, active { /* drop-shadow effect for search bar */
 	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08), 1px 0 0 0 #fafafa;
+}
+
+/* section above search results showing options */
+
+.results-tabs {
+	position:relative;
+	display:block;
+	background-color: #fafafa;
+	height:50px;
+	width:100%;
+
+}
+
+.extra-space {
+	display:inline-block;
+	width:150px;
+}
+
+.nav-option {
+	display:inline-block;
+	padding: 10px;
 }
