@@ -77,7 +77,30 @@ body {
 	width:150px;
 }
 
+.results-tabls:nth-child(2) {
+	border-color: rgb(66, 133, 244);
+	border-style: solid;
+	border-bottom: 12px;
+}
+
 .nav-option {
 	display:inline-block;
-	padding: 10px;
+	padding-top: 20px;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.nav-option > a:link, a:visited {
+	text-decoration:none;
+	font-family: Roboto, arial, sans-serif;
+	color: rgb(119, 119, 119);
+	font-size:13px;
+
+}
+
+#nav-op-selected {
+	color: rgb(66, 133, 244) !important;
+	font-weight: bold;
 }
