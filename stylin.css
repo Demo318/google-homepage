@@ -54,7 +54,7 @@ body {
 	font-size:16px;
 	font-family:Arial, sans-serif;
 	background-color: #fff;
-	
+
 }
 
 .search-field:hover, focus, active { /* drop-shadow effect for search bar */
@@ -103,4 +103,59 @@ body {
 #nav-op-selected {
 	color: rgb(66, 133, 244) !important;
 	font-weight: bold;
+}
+
+/* Below format applies to search-results number results at top of page */
+
+.search-results-number {
+margin-left: 150px;
+display: block;
+padding: 0 8px 0 16px;
+
+}
+.search-results-number > p {
+	color:rgb(128, 128, 128);
+	font-family: Roboto, arial, sans-serif;
+	font-size: 13px;
+	line-height: 43px;
+	vertical-align: middle;
+}
+
+/* Individual search results */
+
+.search-results-list-div {
+	display: block;
+	margin-left: 150px;
+	width: 632px;
+}
+
+.search-results-list-ul {
+	padding: 0 16px 0 16px;
+}
+
+.result-info-title > a {
+	text-decoration:none;
+	color:rgb(26, 13, 171);
+	font-size: 18px;
+	font-family: Roboto, arial, sans-serif;
+	line-height: 21.6px;
+}
+.result-info-title > a:hover {
+	text-decoration:underline;
+	cursor: pointer;
+}
+
+.result-info-url {
+	font-size: 14px;
+	line-height: 16px;
+	white-space:nowrap;
+	color: rgb(0, 102, 33);
+	font-family: Roboto, arial, sans-serif;
+}
+
+.result-info-content {
+	font-size: 13px;
+	color:rgb(84, 84, 84);
+	font-family: Roboto, arial, sans-serif;
+	line-height: 18.2px;
 }
