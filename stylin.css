@@ -1,5 +1,6 @@
 body {
 	margin: 0px;
+	font-family: Roboto, arial, sans-serif;
 }
 /* Formatting for top bar elements */
 #search-form {
@@ -189,4 +190,47 @@ padding: 0 8px 0 16px;
 	font-family: Roboto, arial, sans-serif;
 	line-height: 18px;
 	font-size: 13px;
+}
+
+/* style elements for search suggestions at bottom of page. */
+
+h3 {
+	font-family: Roboto, arial, sans-serif;
+	line-height: 18px;
+	font-size: 18px;
+	padding-bottom: 12px;
+	line-height: 26px;
+}
+
+.search-suggestion-div {
+		display: block;
+		margin-left: 150px;
+		padding: 0 16px 0 16px;
+		width: 632px;
+
+	}
+.suggestions-list {
+	display: inline-block;
+
+}
+
+.suggestions-list > li {
+	padding: 3px 32px 0px 3px;
+}
+
+.suggestions-list > li > a {
+	text-decoration:none;
+	color:rgb(26, 13, 171);
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: normal;
+}
+
+.suggestions-list > li > a > b {
+	font-weight: bold;
+}
+
+.suggestions-list > li > a:hover {
+	text-decoration:underline;
+	cursor: pointer;
 }
