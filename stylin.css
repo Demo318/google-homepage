@@ -237,4 +237,58 @@ h3 {
 
 /* Google result pages navigation area */
 
+
+
+/* Footer */
+.footer {
+	position:absolute;
+	display: block;
+	border-top-color: rgb(228, 228, 228);
+	border-top-style: solid;
+	border-top-width: 1px;
+	padding-top: 20px;
+	margin-top: 18px;
+	background-color: rgb(242, 242, 242);
+	background-origin: padding-box;
+	background-size: auto;
+	font-size: 13px;
+	line-height: 40px;
+	width: 100%;
+	min-width: 980px;
+}
+
+.footer > p > .dot {
+border-top-right-radius: 100%;
+border-top-left-radius: 100%;
+border-bottom-left-radius: 100%;
+border-bottom-right-radius: 100%;
+width: 10px;
+height: 10px;
+background-color: rgb(158, 158, 158);
+background-clip: border-box;
+background-origin: padding-box;
+background-size: auto;
+display:inline-block;
+margin-right: 4px;
+}
+
+.footer > p {
+	margin-left: 166px;
+	line-height: 15px;
+	color: #aaa;
+	padding-bottom: 20px;
+}
+
+.footer > p > a {
+	text-decoration: none;
+	color: #777;
+}
+
+.footer > p > a:hover {
+	text-decoration: underline;
+	color: #333;
+}
+
+.anchor-pad {
+	padding-left: 27px;
 }
