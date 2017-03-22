@@ -236,8 +236,73 @@ h3 {
 }
 
 /* Google result pages navigation area */
+.pages-area {
+	display: block;
+	margin-left: 166px;
+}
 
+.gooogle-table {
+	margin: 30px 162px 30px 162px;
+}
 
+td {
+	vertical-align: top;
+	color: rgba(0,0,0,0.87);
+	font-size: 13px;
+	text-align: center;
+}
+
+td > .txt-right {
+	text-align: right;
+	float: right;
+}
+
+td > a, td > a:visited {
+	color: #4285f4;
+	text-decoration: none;
+}
+
+td > a:hover {
+	text-decoration: underline;
+}
+
+.nav-start {
+display:block;
+width: 28px;
+height:40px;
+background:url('img/nav-logo.png') no-repeat;
+background-position: -24px 0px;
+background-size: 167px;
+padding-bottom: 0px;
+vertical-align: top;
+}
+
+.nav-first {
+	display:block;
+	width: 20px;
+	height:40px;
+	background:url('img/nav-logo.png') no-repeat;
+	background-position: -53px 0px;
+	background-size: 167px;
+}
+
+.nav-next {
+	display:block;
+	width: 20px;
+	height:40px;
+	background:url('img/nav-logo.png') no-repeat;
+	background-position: -74px 0px;
+	background-size: 167px;
+}
+
+.nav-end {
+display:block;
+width: 71px;
+height:40px;
+background:url('img/nav-logo.png') no-repeat;
+background-position: -96px 0px;
+background-size: 167px;
+}
 
 /* Footer */
 .footer {
