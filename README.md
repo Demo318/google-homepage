@@ -1,5 +1,5 @@
-This project is completed in conjuction with the Front End Web Development 101 curriculum at theodinproject.com
+# Google Search Results
 
-The goal in this project is to use HTML & CSS files to recreate the Google Search Results page.
+This project is completed as a submission for the HTML/CSS project in the Front End Web Development 101 curriculum at [The Odin Project](http://theodinproject.com). A full description of the assignment can be found [here](http://www.theodinproject.com/courses/web-development-101/lessons/html-css).
 
-The page does not need to be functional. However, the style should complement the visual result of a Google search.
+The project focuses on utilizing HTML & CSS, create an imitation of Google's home or search-results pages. Students are expected to utilize their web browser's development tools to learn Google's page structure and styling. All submitted code has been directly written by the student.
